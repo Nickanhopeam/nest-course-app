@@ -6,31 +6,31 @@ export class AppService {
     return 'We love NestJS';
   }
 
-  getName():string{
-    return'Xiao Ma';
+  getName(): string {
+    return 'Xiao Ma';
   }
 
-  showInfo():string{
-    return'I am Xiao Ma ,19 years old';
+  showInfo(): string {
+    return 'I am Xiao Ma ,19 years old';
   }
-  
-  getJSON(){
-    return{
-     name:'Xiao' ,
-     lastname:'Ma',
-     age:19,
-    }
-   }
- 
 
+  getJSON() {
+    return {
+      name: 'Xiao',
+      lastname: 'Ma',
+      age: 19,
+    };
+  }
 
-  myJOSN(){
-   return{
-    name:'Xiao' ,
-    lastname:'Ma',
-    age:19,
-   }
+  myJOSN() {
+    return {
+      name: 'Xiao',
+      lastname: 'Ma',
+      age: 19,
+    };
+  }
 
-  
-}
+  showGithub() {
+    return 'Github testing';
+  }
 }

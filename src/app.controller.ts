@@ -14,18 +14,19 @@ export class AppController {
   showName(): string {
     return this.appService.getName();
   }
-   
+
   @Get('/showinformation')
   showInfo(): string {
     return this.appService.showInfo();
   }
 
   @Get('/showJson')
-  getJSON(){
+  getJSON() {
     return this.appService.getJSON();
   }
 
-
-
-
+  @Get('/showgithub')
+  Github(): string {
+    return this.appService.showGithub();
+  }
 }
