@@ -1,6 +1,6 @@
 import { Controller, Get } from '@nestjs/common';
 import { GloberHelperService } from 'src/shared/glober-helper/glober-helper.service';
-export class OrderController {}
+
 @Controller('order')
 export class orderController {
   constructor(private readonly globalHelperSevice: GloberHelperService) {}
