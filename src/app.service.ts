@@ -33,4 +33,7 @@ export class AppService {
   showGithub() {
     return 'Github testing';
   }
+  usepostman(): string {
+    return 'we use postman xxx';
+  }
 }
